@@ -44,6 +44,7 @@ target 'WarmCafe' do
   # pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
   pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
   pod 'ShareSDK3/ShareSDKPlatforms/SMS'
+  inhibit_all_warnings!  #禁止掉警告
 
   target 'WarmCafeTests' do
     inherit! :search_paths

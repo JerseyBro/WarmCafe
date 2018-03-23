@@ -128,15 +128,9 @@
 		B47917512064FA1C004CAF3C /* WarmCafe */ = {
 			isa = PBXGroup;
 			children = (
-				B47917522064FA1C004CAF3C /* AppDelegate.h */,
-				B47917532064FA1C004CAF3C /* AppDelegate.m */,
 				B47917552064FA1C004CAF3C /* ViewController.h */,
 				B47917562064FA1C004CAF3C /* ViewController.m */,
-				B47917582064FA1D004CAF3C /* Main.storyboard */,
-				B479175B2064FA1D004CAF3C /* Assets.xcassets */,
-				B479175D2064FA1D004CAF3C /* LaunchScreen.storyboard */,
-				B47917602064FA1D004CAF3C /* Info.plist */,
-				B47917612064FA1D004CAF3C /* main.m */,
+				B479178420650445004CAF3C /* Supporting Files */,
 			);
 			path = WarmCafe;
 			sourceTree = "<group>";
@@ -157,6 +151,20 @@
 				B47917782064FA1D004CAF3C /* Info.plist */,
 			);
 			path = WarmCafeUITests;
+			sourceTree = "<group>";
+		};
+		B479178420650445004CAF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B47917522064FA1C004CAF3C /* AppDelegate.h */,
+				B47917532064FA1C004CAF3C /* AppDelegate.m */,
+				B47917582064FA1D004CAF3C /* Main.storyboard */,
+				B479175D2064FA1D004CAF3C /* LaunchScreen.storyboard */,
+				B47917602064FA1D004CAF3C /* Info.plist */,
+				B47917612064FA1D004CAF3C /* main.m */,
+				B479175B2064FA1D004CAF3C /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		FD783199C2AA65AAF87EC276 /* Pods */ = {
@@ -640,11 +648,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2K6DTDY865;
-				INFOPLIST_FILE = WarmCafe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WarmCafe/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JerseyCoffee.WarmCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -655,11 +664,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2K6DTDY865;
-				INFOPLIST_FILE = WarmCafe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WarmCafe/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JerseyCoffee.WarmCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
