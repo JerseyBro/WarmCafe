@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JSCLaunchVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    JSCLaunchVC* launchVC = [[JSCLaunchVC alloc] init];
+    self.window.rootViewController = launchVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
