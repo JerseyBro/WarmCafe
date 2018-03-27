@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import <MJExtension.h>
+#import <MJExtension/MJExtension.h>
+
 @interface JSCBaseModel : NSObject
+
+
 
 @end

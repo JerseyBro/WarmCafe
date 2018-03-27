@@ -9,10 +9,11 @@
 #import "JSCLaunchVC.h"
 
 #import "JSCLaunchView.h"
+#import "JSCRootTabVC.h"
 
 @interface JSCLaunchVC ()
 
-@property (nonatomic, strong) JSCLaunchView *launchView;
+@property (nonatomic, strong) UIImageView *launchImageView;
 
 @end
 
@@ -32,7 +33,13 @@
     [self setupData];
     //4.设置通知
     [self setupNotification];
+}
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+//    [self changeWindowsRootViewController];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,11 +56,24 @@
 
 - (void)setupView
 {
-    JSCLaunchView* launchView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([JSCLaunchView class]) owner:nil options:nil].lastObject;
-    launchView.frame = CGRectMake(0, 0, VIEW_WIDTH, VIEW_HEIGHT);
-    self.launchView = launchView;
+    self.view.backgroundColor = YMColorWithRGB(19, 144, 87);
     
-    [self.view addSubview:launchView];
+    UIImageView* launchImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"InboxSiren"]];
+    launchImageView.center = CGPointMake(CGRectGetMidX(self.view.frame), CGRectGetMidY(self.view.frame));
+    self.launchImageView = launchImageView;
+    
+    UIButton* customButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    customButton.frame = CGRectMake(100, 100, 50, 50);
+    customButton.titleLabel.text = @"CustomButton";
+    customButton.backgroundColor = [UIColor ym_dodgerBlue];
+//    customButton setBackgroundImage:<#(nullable UIImage *)#> forState:<#(UIControlState)#>
+    [customButton bk_addEventHandler:^(id sender) {
+        
+        customButton.selected = YES;
+        
+    } forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:launchImageView];
 }
 
 - (void)reloadView
@@ -65,7 +85,7 @@
 
 - (void)setupData
 {
-
+    [self changeWindowsRootViewController];
 }
 
 #pragma mark - 4.UITableViewDataSource and UITableViewDelegate
@@ -77,6 +97,35 @@
 - (void)setupNotification
 {
     
+}
+
+- (void)changeWindowsRootViewController
+{
+//    JSCRootTabVC* TabBarVC = [[JSCRootTabVC alloc] init];
+    UIViewController* vc = [[UIViewController alloc] init];
+    UIWindow* window = [UIApplication sharedApplication].delegate.window;
+    
+    [UIView animateWithDuration:3.0f animations:^{
+        self.view.backgroundColor = [UIColor whiteColor];
+        self.launchImageView.center = CGPointMake(CGRectGetMaxX(self.view.frame), CGRectGetMaxY(self.view.frame));
+        self.launchImageView.size = CGSizeMake(20, 20);
+    } completion:^(BOOL finished) {
+//        [window setRootViewController:vc];
+        [self presentViewController:vc animated:YES completion:nil];
+    }];
+//    [UIView transitionWithView:window
+//                      duration:10
+//                       options:UIViewAnimationOptionTransitionCrossDissolve
+//                    animations:^{
+//                        self.view.backgroundColor = [UIColor whiteColor];
+//                        self.launchImageView.center = CGPointMake(CGRectGetMaxX(self.view.frame), CGRectGetMaxY(self.view.frame));
+//                        self.launchImageView.size = CGSizeMake(20, 20);
+//                        BOOL oldState = [UIView areAnimationsEnabled];
+//                        [UIView setAnimationsEnabled:NO];
+//                        [window setRootViewController:vc];
+//                        [UIView setAnimationsEnabled:oldState];
+//                    }
+//                    completion:NULL];
 }
 
 #pragma mark - 7.GET & SET

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSCRootTabVC : UITableViewController
+@interface JSCRootTabVC : UIViewController
 
 @end

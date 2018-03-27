@@ -13,5 +13,6 @@
 #import "UIFont+YMStyle.h"
 #import "UIView+YMTool.h"
 #import "JSCBaseViewController.h"
+#import "NSObject+JSCExtension.h"
 
 #endif /* PublicFile_h */

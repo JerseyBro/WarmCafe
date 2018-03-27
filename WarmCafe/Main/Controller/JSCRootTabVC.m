@@ -45,7 +45,7 @@
 
 - (void)setupView
 {
-    
+    self.view.backgroundColor = [UIColor ym_mainRedColor];
 }
 
 - (void)reloadView

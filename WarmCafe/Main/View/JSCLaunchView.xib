@@ -6,31 +6,9 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InboxSiren" translatesAutoresizingMaskIntoConstraints="NO" id="iOc-dV-7WK">
-                    <rect key="frame" x="150" y="296" width="75" height="75"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="75" id="6T7-Qt-2Or"/>
-                        <constraint firstAttribute="height" constant="75" id="Qec-EO-baP"/>
-                    </constraints>
-                </imageView>
-            </subviews>
-            <color key="backgroundColor" red="0.11261147952308559" green="1" blue="0.50560999685692665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="iOc-dV-7WK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lck-Kq-f8Y"/>
-                <constraint firstItem="iOc-dV-7WK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vAo-1R-L5s"/>
-            </constraints>
-        </view>
     </objects>
-    <resources>
-        <image name="InboxSiren" width="52" height="52"/>
-    </resources>
 </document>
