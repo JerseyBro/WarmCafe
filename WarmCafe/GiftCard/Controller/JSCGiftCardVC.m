@@ -1,18 +1,18 @@
 //
-//  JSCHomeVC.m
+//  JSCGiftCardVC.m
 //  WarmCafe
 //
-//  Created by jersey on 27/3/18.
+//  Created by jersey on 28/3/18.
 //  Copyright © 2018年 JerseyCoffee. All rights reserved.
 //
 
-#import "JSCHomeVC.h"
+#import "JSCGiftCardVC.h"
 
-@interface JSCHomeVC ()<UIActionSheetDelegate>
+@interface JSCGiftCardVC ()
 
 @end
 
-@implementation JSCHomeVC
+@implementation JSCGiftCardVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -85,6 +85,4 @@
  // Pass the selected object to the new view controller.
  }
  */
-
-
 @end

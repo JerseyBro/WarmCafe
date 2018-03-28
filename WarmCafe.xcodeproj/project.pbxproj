@@ -10,6 +10,34 @@
 		330662FFBF25FE82F11E5890 /* libPods-WarmCafe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEB4C933459EB09507B50F9 /* libPods-WarmCafe.a */; };
 		788C6F3CEEE1CB9D91811996 /* libPods-WarmCafeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 171C0AA6BEECF65842AF1A18 /* libPods-WarmCafeTests.a */; };
 		8BEEBF222850B45D8C569B2D /* libPods-WarmCafeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4C9F099D8454F9062B7683 /* libPods-WarmCafeUITests.a */; };
+		B44352ED207C66110092D037 /* JSCShopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D28206A144200A358E7 /* JSCShopVC.m */; };
+		B44352EE207C66110092D037 /* JSCLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CE12068A18E00A358E7 /* JSCLaunchView.m */; };
+		B44352EF207C66110092D037 /* JSCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CEF2068A62B00A358E7 /* JSCBaseViewController.m */; };
+		B44352F0207C66110092D037 /* JSCHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D1E206A141B00A358E7 /* JSCHomeVC.m */; };
+		B44352F1207C66110092D037 /* UIFont+YMStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CDB206895A900A358E7 /* UIFont+YMStyle.m */; };
+		B44352F2207C66110092D037 /* JSCLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CCB20688FB500A358E7 /* JSCLaunchVC.m */; };
+		B44352F3207C66110092D037 /* JSCGiftCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D91B5206BA1480085A980 /* JSCGiftCardVC.m */; };
+		B44352F4207C66110092D037 /* JSCRootTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CE92068A59900A358E7 /* JSCRootTabVC.m */; };
+		B44352F5207C66110092D037 /* UIView+YMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CD62068934C00A358E7 /* UIView+YMTool.m */; };
+		B44352F6207C66110092D037 /* JSCAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D2D206A145100A358E7 /* JSCAccountVC.m */; };
+		B44352F7207C66110092D037 /* JSCRootTabBarVM.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CF82068C1D500A358E7 /* JSCRootTabBarVM.m */; };
+		B44352F8207C66110092D037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917562064FA1C004CAF3C /* ViewController.m */; };
+		B44352F9207C66110092D037 /* NSObject+JSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D0B2069EED800A358E7 /* NSObject+JSCExtension.m */; };
+		B44352FA207C66110092D037 /* JSCWelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CE62068A53B00A358E7 /* JSCWelcomeVC.m */; };
+		B44352FB207C66110092D037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917612064FA1D004CAF3C /* main.m */; };
+		B44352FC207C66110092D037 /* JSCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CF52068C15D00A358E7 /* JSCBaseModel.m */; };
+		B44352FD207C66110092D037 /* UIColor+YMStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CDD206895A900A358E7 /* UIColor+YMStyle.m */; };
+		B44352FE207C66110092D037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917532064FA1C004CAF3C /* AppDelegate.m */; };
+		B44352FF207C66110092D037 /* JSCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D91B2206B72010085A980 /* JSCNavigationController.m */; };
+		B4435301207C66110092D037 /* libPods-WarmCafe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEB4C933459EB09507B50F9 /* libPods-WarmCafe.a */; };
+		B4435303207C66110092D037 /* JSCLaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6CE32068A19A00A358E7 /* JSCLaunchView.xib */; };
+		B4435304207C66110092D037 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D31206A183500A358E7 /* Default-568h@2x.png */; };
+		B4435305207C66110092D037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B479175D2064FA1D004CAF3C /* LaunchScreen.storyboard */; };
+		B4435306207C66110092D037 /* JSCHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D1F206A141B00A358E7 /* JSCHomeVC.xib */; };
+		B4435307207C66110092D037 /* JSCShopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D29206A144200A358E7 /* JSCShopVC.xib */; };
+		B4435308207C66110092D037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B479175B2064FA1D004CAF3C /* Assets.xcassets */; };
+		B4435309207C66110092D037 /* JSCAccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D2E206A145100A358E7 /* JSCAccountVC.xib */; };
+		B443530A207C66110092D037 /* JSCGiftCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48D91B6206BA1480085A980 /* JSCGiftCardVC.xib */; };
 		B47917542064FA1C004CAF3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917532064FA1C004CAF3C /* AppDelegate.m */; };
 		B47917572064FA1C004CAF3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917562064FA1C004CAF3C /* ViewController.m */; };
 		B479175C2064FA1D004CAF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B479175B2064FA1D004CAF3C /* Assets.xcassets */; };
@@ -17,6 +45,9 @@
 		B47917622064FA1D004CAF3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917612064FA1D004CAF3C /* main.m */; };
 		B479176C2064FA1D004CAF3C /* WarmCafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B479176B2064FA1D004CAF3C /* WarmCafeTests.m */; };
 		B47917772064FA1D004CAF3C /* WarmCafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917762064FA1D004CAF3C /* WarmCafeUITests.m */; };
+		B48D91B3206B72010085A980 /* JSCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D91B2206B72010085A980 /* JSCNavigationController.m */; };
+		B48D91B7206BA1480085A980 /* JSCGiftCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D91B5206BA1480085A980 /* JSCGiftCardVC.m */; };
+		B48D91B8206BA1480085A980 /* JSCGiftCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48D91B6206BA1480085A980 /* JSCGiftCardVC.xib */; };
 		B49D6CCC20688FB500A358E7 /* JSCLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CCB20688FB500A358E7 /* JSCLaunchVC.m */; };
 		B49D6CD72068934C00A358E7 /* UIView+YMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CD62068934C00A358E7 /* UIView+YMTool.m */; };
 		B49D6CDE206895A900A358E7 /* UIFont+YMStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CDB206895A900A358E7 /* UIFont+YMStyle.m */; };
@@ -31,8 +62,6 @@
 		B49D6D0C2069EED800A358E7 /* NSObject+JSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D0B2069EED800A358E7 /* NSObject+JSCExtension.m */; };
 		B49D6D20206A141B00A358E7 /* JSCHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D1E206A141B00A358E7 /* JSCHomeVC.m */; };
 		B49D6D21206A141B00A358E7 /* JSCHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D1F206A141B00A358E7 /* JSCHomeVC.xib */; };
-		B49D6D25206A143000A358E7 /* JSCGitCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D23206A143000A358E7 /* JSCGitCardVC.m */; };
-		B49D6D26206A143000A358E7 /* JSCGitCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D24206A143000A358E7 /* JSCGitCardVC.xib */; };
 		B49D6D2A206A144200A358E7 /* JSCShopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D28206A144200A358E7 /* JSCShopVC.m */; };
 		B49D6D2B206A144200A358E7 /* JSCShopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D29206A144200A358E7 /* JSCShopVC.xib */; };
 		B49D6D2F206A145100A358E7 /* JSCAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D2D206A145100A358E7 /* JSCAccountVC.m */; };
@@ -66,6 +95,8 @@
 		6EEB4C933459EB09507B50F9 /* libPods-WarmCafe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WarmCafe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24DA2A202345781710633C0 /* Pods-WarmCafeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarmCafeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarmCafeUITests/Pods-WarmCafeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A55299266DF9E04D642CAE01 /* Pods-WarmCafeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarmCafeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarmCafeTests/Pods-WarmCafeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4435310207C66110092D037 /* WarmCafeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmCafeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4435311207C66160092D037 /* WarmCafeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WarmCafeTest-Info.plist"; path = "/Users/jersey/Develop/JerseyCafe/WarmCafe/WarmCafe/Supporting Files/WarmCafeTest-Info.plist"; sourceTree = "<absolute>"; };
 		B479174F2064FA1C004CAF3C /* WarmCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47917522064FA1C004CAF3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B47917532064FA1C004CAF3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +112,11 @@
 		B47917722064FA1D004CAF3C /* WarmCafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmCafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47917762064FA1D004CAF3C /* WarmCafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmCafeUITests.m; sourceTree = "<group>"; };
 		B47917782064FA1D004CAF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48D91B1206B72010085A980 /* JSCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCNavigationController.h; sourceTree = "<group>"; };
+		B48D91B2206B72010085A980 /* JSCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCNavigationController.m; sourceTree = "<group>"; };
+		B48D91B4206BA1480085A980 /* JSCGiftCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCGiftCardVC.h; sourceTree = "<group>"; };
+		B48D91B5206BA1480085A980 /* JSCGiftCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCGiftCardVC.m; sourceTree = "<group>"; };
+		B48D91B6206BA1480085A980 /* JSCGiftCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSCGiftCardVC.xib; sourceTree = "<group>"; };
 		B49D6CCA20688FB500A358E7 /* JSCLaunchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCLaunchVC.h; sourceTree = "<group>"; };
 		B49D6CCB20688FB500A358E7 /* JSCLaunchVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCLaunchVC.m; sourceTree = "<group>"; };
 		B49D6CCD2068900300A358E7 /* JSCPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCPrefixHeader.pch; sourceTree = "<group>"; };
@@ -110,9 +146,6 @@
 		B49D6D1D206A141B00A358E7 /* JSCHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCHomeVC.h; sourceTree = "<group>"; };
 		B49D6D1E206A141B00A358E7 /* JSCHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCHomeVC.m; sourceTree = "<group>"; };
 		B49D6D1F206A141B00A358E7 /* JSCHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSCHomeVC.xib; sourceTree = "<group>"; };
-		B49D6D22206A143000A358E7 /* JSCGitCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCGitCardVC.h; sourceTree = "<group>"; };
-		B49D6D23206A143000A358E7 /* JSCGitCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCGitCardVC.m; sourceTree = "<group>"; };
-		B49D6D24206A143000A358E7 /* JSCGitCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSCGitCardVC.xib; sourceTree = "<group>"; };
 		B49D6D27206A144200A358E7 /* JSCShopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCShopVC.h; sourceTree = "<group>"; };
 		B49D6D28206A144200A358E7 /* JSCShopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCShopVC.m; sourceTree = "<group>"; };
 		B49D6D29206A144200A358E7 /* JSCShopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSCShopVC.xib; sourceTree = "<group>"; };
@@ -124,6 +157,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B4435300207C66110092D037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4435301207C66110092D037 /* libPods-WarmCafe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B479174C2064FA1C004CAF3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,6 +221,7 @@
 				B479174F2064FA1C004CAF3C /* WarmCafe.app */,
 				B47917672064FA1D004CAF3C /* WarmCafeTests.xctest */,
 				B47917722064FA1D004CAF3C /* WarmCafeUITests.xctest */,
+				B4435310207C66110092D037 /* WarmCafeTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,6 +267,7 @@
 				B47917532064FA1C004CAF3C /* AppDelegate.m */,
 				B479175D2064FA1D004CAF3C /* LaunchScreen.storyboard */,
 				B47917602064FA1D004CAF3C /* Info.plist */,
+				B4435311207C66160092D037 /* WarmCafeTest-Info.plist */,
 				B47917612064FA1D004CAF3C /* main.m */,
 				B479175B2064FA1D004CAF3C /* Assets.xcassets */,
 				B49D6CCD2068900300A358E7 /* JSCPrefixHeader.pch */,
@@ -329,6 +372,8 @@
 			children = (
 				B49D6CEE2068A62B00A358E7 /* JSCBaseViewController.h */,
 				B49D6CEF2068A62B00A358E7 /* JSCBaseViewController.m */,
+				B48D91B1206B72010085A980 /* JSCNavigationController.h */,
+				B48D91B2206B72010085A980 /* JSCNavigationController.m */,
 			);
 			path = BaseController;
 			sourceTree = "<group>";
@@ -398,9 +443,9 @@
 		B49D6D122069F8C700A358E7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B49D6D22206A143000A358E7 /* JSCGitCardVC.h */,
-				B49D6D23206A143000A358E7 /* JSCGitCardVC.m */,
-				B49D6D24206A143000A358E7 /* JSCGitCardVC.xib */,
+				B48D91B4206BA1480085A980 /* JSCGiftCardVC.h */,
+				B48D91B5206BA1480085A980 /* JSCGiftCardVC.m */,
+				B48D91B6206BA1480085A980 /* JSCGiftCardVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -503,6 +548,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B44352EA207C66110092D037 /* WarmCafeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B443530D207C66110092D037 /* Build configuration list for PBXNativeTarget "WarmCafeTest" */;
+			buildPhases = (
+				B44352EB207C66110092D037 /* [CP] Check Pods Manifest.lock */,
+				B44352EC207C66110092D037 /* Sources */,
+				B4435300207C66110092D037 /* Frameworks */,
+				B4435302207C66110092D037 /* Resources */,
+				B443530B207C66110092D037 /* [CP] Embed Pods Frameworks */,
+				B443530C207C66110092D037 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarmCafeTest;
+			productName = WarmCafe;
+			productReference = B4435310207C66110092D037 /* WarmCafeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B479174E2064FA1C004CAF3C /* WarmCafe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B479177B2064FA1D004CAF3C /* Build configuration list for PBXNativeTarget "WarmCafe" */;
@@ -574,6 +639,9 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = JerseyCoffee;
 				TargetAttributes = {
+					B44352EA207C66110092D037 = {
+						ProvisioningStyle = Automatic;
+					};
 					B479174E2064FA1C004CAF3C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -606,16 +674,31 @@
 				B479174E2064FA1C004CAF3C /* WarmCafe */,
 				B47917662064FA1D004CAF3C /* WarmCafeTests */,
 				B47917712064FA1D004CAF3C /* WarmCafeUITests */,
+				B44352EA207C66110092D037 /* WarmCafeTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B4435302207C66110092D037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4435303207C66110092D037 /* JSCLaunchView.xib in Resources */,
+				B4435304207C66110092D037 /* Default-568h@2x.png in Resources */,
+				B4435305207C66110092D037 /* LaunchScreen.storyboard in Resources */,
+				B4435306207C66110092D037 /* JSCHomeVC.xib in Resources */,
+				B4435307207C66110092D037 /* JSCShopVC.xib in Resources */,
+				B4435308207C66110092D037 /* Assets.xcassets in Resources */,
+				B4435309207C66110092D037 /* JSCAccountVC.xib in Resources */,
+				B443530A207C66110092D037 /* JSCGiftCardVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B479174D2064FA1C004CAF3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49D6D26206A143000A358E7 /* JSCGitCardVC.xib in Resources */,
 				B49D6CE42068A19A00A358E7 /* JSCLaunchView.xib in Resources */,
 				B49D6D32206A183500A358E7 /* Default-568h@2x.png in Resources */,
 				B479175F2064FA1D004CAF3C /* LaunchScreen.storyboard in Resources */,
@@ -623,6 +706,7 @@
 				B49D6D2B206A144200A358E7 /* JSCShopVC.xib in Resources */,
 				B479175C2064FA1D004CAF3C /* Assets.xcassets in Resources */,
 				B49D6D30206A145100A358E7 /* JSCAccountVC.xib in Resources */,
+				B48D91B8206BA1480085A980 /* JSCGiftCardVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,6 +816,65 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B44352EB207C66110092D037 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WarmCafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B443530B207C66110092D037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarmCafe/Pods-WarmCafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B443530C207C66110092D037 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WarmCafe/Pods-WarmCafe-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/ShareSDK3/ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/WebViewJavascriptBridge/WebViewJavascriptBridge/WebViewJavascriptBridge.js.txt",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WebViewJavascriptBridge.js.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarmCafe/Pods-WarmCafe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D3A074A155284FB7186473A4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -801,17 +944,43 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B44352EC207C66110092D037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44352ED207C66110092D037 /* JSCShopVC.m in Sources */,
+				B44352EE207C66110092D037 /* JSCLaunchView.m in Sources */,
+				B44352EF207C66110092D037 /* JSCBaseViewController.m in Sources */,
+				B44352F0207C66110092D037 /* JSCHomeVC.m in Sources */,
+				B44352F1207C66110092D037 /* UIFont+YMStyle.m in Sources */,
+				B44352F2207C66110092D037 /* JSCLaunchVC.m in Sources */,
+				B44352F3207C66110092D037 /* JSCGiftCardVC.m in Sources */,
+				B44352F4207C66110092D037 /* JSCRootTabVC.m in Sources */,
+				B44352F5207C66110092D037 /* UIView+YMTool.m in Sources */,
+				B44352F6207C66110092D037 /* JSCAccountVC.m in Sources */,
+				B44352F7207C66110092D037 /* JSCRootTabBarVM.m in Sources */,
+				B44352F8207C66110092D037 /* ViewController.m in Sources */,
+				B44352F9207C66110092D037 /* NSObject+JSCExtension.m in Sources */,
+				B44352FA207C66110092D037 /* JSCWelcomeVC.m in Sources */,
+				B44352FB207C66110092D037 /* main.m in Sources */,
+				B44352FC207C66110092D037 /* JSCBaseModel.m in Sources */,
+				B44352FD207C66110092D037 /* UIColor+YMStyle.m in Sources */,
+				B44352FE207C66110092D037 /* AppDelegate.m in Sources */,
+				B44352FF207C66110092D037 /* JSCNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B479174B2064FA1C004CAF3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B49D6D2A206A144200A358E7 /* JSCShopVC.m in Sources */,
-				B49D6D25206A143000A358E7 /* JSCGitCardVC.m in Sources */,
 				B49D6CE22068A18E00A358E7 /* JSCLaunchView.m in Sources */,
 				B49D6CF02068A62B00A358E7 /* JSCBaseViewController.m in Sources */,
 				B49D6D20206A141B00A358E7 /* JSCHomeVC.m in Sources */,
 				B49D6CDE206895A900A358E7 /* UIFont+YMStyle.m in Sources */,
 				B49D6CCC20688FB500A358E7 /* JSCLaunchVC.m in Sources */,
+				B48D91B7206BA1480085A980 /* JSCGiftCardVC.m in Sources */,
 				B49D6CEA2068A59900A358E7 /* JSCRootTabVC.m in Sources */,
 				B49D6CD72068934C00A358E7 /* UIView+YMTool.m in Sources */,
 				B49D6D2F206A145100A358E7 /* JSCAccountVC.m in Sources */,
@@ -823,6 +992,7 @@
 				B49D6CF62068C15D00A358E7 /* JSCBaseModel.m in Sources */,
 				B49D6CDF206895A900A358E7 /* UIColor+YMStyle.m in Sources */,
 				B47917542064FA1C004CAF3C /* AppDelegate.m in Sources */,
+				B48D91B3206B72010085A980 /* JSCNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -869,6 +1039,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B443530E207C66110092D037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D13BF206716D887422F321 /* Pods-WarmCafe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K6DTDY865;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WarmCafe/Supporting Files/JSCPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WarmCafeTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JerseyCoffee.WarmCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B443530F207C66110092D037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5BEBE205FCD580084EFCB5 /* Pods-WarmCafe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K6DTDY865;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WarmCafe/Supporting Files/JSCPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WarmCafeTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JerseyCoffee.WarmCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		B47917792064FA1D004CAF3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1076,6 +1284,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B443530D207C66110092D037 /* Build configuration list for PBXNativeTarget "WarmCafeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B443530E207C66110092D037 /* Debug */,
+				B443530F207C66110092D037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B479174A2064FA1C004CAF3C /* Build configuration list for PBXProject "WarmCafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
