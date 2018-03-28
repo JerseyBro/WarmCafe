@@ -1,23 +1,25 @@
 //
-//  JSCHomeVC.m
+//  JSCNavigationController.m
 //  WarmCafe
 //
-//  Created by jersey on 27/3/18.
+//  Created by jersey on 28/3/18.
 //  Copyright © 2018年 JerseyCoffee. All rights reserved.
 //
 
-#import "JSCHomeVC.h"
+#import "JSCNavigationController.h"
 
-@interface JSCHomeVC ()<UIActionSheetDelegate>
+@interface JSCNavigationController ()
 
 @end
 
-@implementation JSCHomeVC
+@implementation JSCNavigationController
+
+#pragma mark - 1.View Controller Life Cycle
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+
     //1.设置导航栏
     [self setupNavBar];
     //2.设置view
@@ -26,12 +28,7 @@
     [self setupData];
     //4.设置通知
     [self setupNotification];
-    
-}
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,7 +57,7 @@
 
 - (void)setupData
 {
-    
+
 }
 
 #pragma mark - 4.UITableViewDataSource and UITableViewDelegate
@@ -77,14 +74,13 @@
 #pragma mark - 7.GET & SET
 
 /*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+#pragma mark - Navigation
 
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

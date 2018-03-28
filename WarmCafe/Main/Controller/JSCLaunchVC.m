@@ -73,7 +73,7 @@
 
 - (void)setupData
 {
-    [self changeWindowsRootViewController];
+    
 }
 
 #pragma mark - 4.UITableViewDataSource and UITableViewDelegate
@@ -97,9 +97,7 @@
         self.launchImageView.center = CGPointMake(CGRectGetMaxX(self.view.frame), CGRectGetMaxY(self.view.frame));
         self.launchImageView.size = CGSizeMake(20, 20);
     } completion:^(BOOL finished) {
-        [self presentViewController:TabBarVC animated:NO completion:^{
-                [window setRootViewController:TabBarVC];
-        }];
+            [window setRootViewController:TabBarVC];
     }];
 }
 

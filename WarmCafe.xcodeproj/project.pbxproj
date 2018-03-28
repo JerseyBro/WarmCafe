@@ -17,6 +17,9 @@
 		B47917622064FA1D004CAF3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917612064FA1D004CAF3C /* main.m */; };
 		B479176C2064FA1D004CAF3C /* WarmCafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B479176B2064FA1D004CAF3C /* WarmCafeTests.m */; };
 		B47917772064FA1D004CAF3C /* WarmCafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917762064FA1D004CAF3C /* WarmCafeUITests.m */; };
+		B48D91B3206B72010085A980 /* JSCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D91B2206B72010085A980 /* JSCNavigationController.m */; };
+		B48D91B7206BA1480085A980 /* JSCGiftCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B48D91B5206BA1480085A980 /* JSCGiftCardVC.m */; };
+		B48D91B8206BA1480085A980 /* JSCGiftCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48D91B6206BA1480085A980 /* JSCGiftCardVC.xib */; };
 		B49D6CCC20688FB500A358E7 /* JSCLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CCB20688FB500A358E7 /* JSCLaunchVC.m */; };
 		B49D6CD72068934C00A358E7 /* UIView+YMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CD62068934C00A358E7 /* UIView+YMTool.m */; };
 		B49D6CDE206895A900A358E7 /* UIFont+YMStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6CDB206895A900A358E7 /* UIFont+YMStyle.m */; };
@@ -31,8 +34,6 @@
 		B49D6D0C2069EED800A358E7 /* NSObject+JSCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D0B2069EED800A358E7 /* NSObject+JSCExtension.m */; };
 		B49D6D20206A141B00A358E7 /* JSCHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D1E206A141B00A358E7 /* JSCHomeVC.m */; };
 		B49D6D21206A141B00A358E7 /* JSCHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D1F206A141B00A358E7 /* JSCHomeVC.xib */; };
-		B49D6D25206A143000A358E7 /* JSCGitCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D23206A143000A358E7 /* JSCGitCardVC.m */; };
-		B49D6D26206A143000A358E7 /* JSCGitCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D24206A143000A358E7 /* JSCGitCardVC.xib */; };
 		B49D6D2A206A144200A358E7 /* JSCShopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D28206A144200A358E7 /* JSCShopVC.m */; };
 		B49D6D2B206A144200A358E7 /* JSCShopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B49D6D29206A144200A358E7 /* JSCShopVC.xib */; };
 		B49D6D2F206A145100A358E7 /* JSCAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B49D6D2D206A145100A358E7 /* JSCAccountVC.m */; };
@@ -81,6 +82,11 @@
 		B47917722064FA1D004CAF3C /* WarmCafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmCafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47917762064FA1D004CAF3C /* WarmCafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmCafeUITests.m; sourceTree = "<group>"; };
 		B47917782064FA1D004CAF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48D91B1206B72010085A980 /* JSCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCNavigationController.h; sourceTree = "<group>"; };
+		B48D91B2206B72010085A980 /* JSCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCNavigationController.m; sourceTree = "<group>"; };
+		B48D91B4206BA1480085A980 /* JSCGiftCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCGiftCardVC.h; sourceTree = "<group>"; };
+		B48D91B5206BA1480085A980 /* JSCGiftCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCGiftCardVC.m; sourceTree = "<group>"; };
+		B48D91B6206BA1480085A980 /* JSCGiftCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSCGiftCardVC.xib; sourceTree = "<group>"; };
 		B49D6CCA20688FB500A358E7 /* JSCLaunchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCLaunchVC.h; sourceTree = "<group>"; };
 		B49D6CCB20688FB500A358E7 /* JSCLaunchVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCLaunchVC.m; sourceTree = "<group>"; };
 		B49D6CCD2068900300A358E7 /* JSCPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCPrefixHeader.pch; sourceTree = "<group>"; };
@@ -110,9 +116,6 @@
 		B49D6D1D206A141B00A358E7 /* JSCHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCHomeVC.h; sourceTree = "<group>"; };
 		B49D6D1E206A141B00A358E7 /* JSCHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCHomeVC.m; sourceTree = "<group>"; };
 		B49D6D1F206A141B00A358E7 /* JSCHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSCHomeVC.xib; sourceTree = "<group>"; };
-		B49D6D22206A143000A358E7 /* JSCGitCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCGitCardVC.h; sourceTree = "<group>"; };
-		B49D6D23206A143000A358E7 /* JSCGitCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCGitCardVC.m; sourceTree = "<group>"; };
-		B49D6D24206A143000A358E7 /* JSCGitCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSCGitCardVC.xib; sourceTree = "<group>"; };
 		B49D6D27206A144200A358E7 /* JSCShopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCShopVC.h; sourceTree = "<group>"; };
 		B49D6D28206A144200A358E7 /* JSCShopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCShopVC.m; sourceTree = "<group>"; };
 		B49D6D29206A144200A358E7 /* JSCShopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSCShopVC.xib; sourceTree = "<group>"; };
@@ -329,6 +332,8 @@
 			children = (
 				B49D6CEE2068A62B00A358E7 /* JSCBaseViewController.h */,
 				B49D6CEF2068A62B00A358E7 /* JSCBaseViewController.m */,
+				B48D91B1206B72010085A980 /* JSCNavigationController.h */,
+				B48D91B2206B72010085A980 /* JSCNavigationController.m */,
 			);
 			path = BaseController;
 			sourceTree = "<group>";
@@ -398,9 +403,9 @@
 		B49D6D122069F8C700A358E7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B49D6D22206A143000A358E7 /* JSCGitCardVC.h */,
-				B49D6D23206A143000A358E7 /* JSCGitCardVC.m */,
-				B49D6D24206A143000A358E7 /* JSCGitCardVC.xib */,
+				B48D91B4206BA1480085A980 /* JSCGiftCardVC.h */,
+				B48D91B5206BA1480085A980 /* JSCGiftCardVC.m */,
+				B48D91B6206BA1480085A980 /* JSCGiftCardVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -615,7 +620,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B49D6D26206A143000A358E7 /* JSCGitCardVC.xib in Resources */,
 				B49D6CE42068A19A00A358E7 /* JSCLaunchView.xib in Resources */,
 				B49D6D32206A183500A358E7 /* Default-568h@2x.png in Resources */,
 				B479175F2064FA1D004CAF3C /* LaunchScreen.storyboard in Resources */,
@@ -623,6 +627,7 @@
 				B49D6D2B206A144200A358E7 /* JSCShopVC.xib in Resources */,
 				B479175C2064FA1D004CAF3C /* Assets.xcassets in Resources */,
 				B49D6D30206A145100A358E7 /* JSCAccountVC.xib in Resources */,
+				B48D91B8206BA1480085A980 /* JSCGiftCardVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -806,12 +811,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B49D6D2A206A144200A358E7 /* JSCShopVC.m in Sources */,
-				B49D6D25206A143000A358E7 /* JSCGitCardVC.m in Sources */,
 				B49D6CE22068A18E00A358E7 /* JSCLaunchView.m in Sources */,
 				B49D6CF02068A62B00A358E7 /* JSCBaseViewController.m in Sources */,
 				B49D6D20206A141B00A358E7 /* JSCHomeVC.m in Sources */,
 				B49D6CDE206895A900A358E7 /* UIFont+YMStyle.m in Sources */,
 				B49D6CCC20688FB500A358E7 /* JSCLaunchVC.m in Sources */,
+				B48D91B7206BA1480085A980 /* JSCGiftCardVC.m in Sources */,
 				B49D6CEA2068A59900A358E7 /* JSCRootTabVC.m in Sources */,
 				B49D6CD72068934C00A358E7 /* UIView+YMTool.m in Sources */,
 				B49D6D2F206A145100A358E7 /* JSCAccountVC.m in Sources */,
@@ -823,6 +828,7 @@
 				B49D6CF62068C15D00A358E7 /* JSCBaseModel.m in Sources */,
 				B49D6CDF206895A900A358E7 /* UIColor+YMStyle.m in Sources */,
 				B47917542064FA1C004CAF3C /* AppDelegate.m in Sources */,
+				B48D91B3206B72010085A980 /* JSCNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

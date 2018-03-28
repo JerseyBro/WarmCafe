@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSCRootTabVC : UIViewController
+@interface JSCRootTabVC : UITabBarController
 
 @end
