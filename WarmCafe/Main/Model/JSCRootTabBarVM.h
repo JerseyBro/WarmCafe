@@ -12,7 +12,7 @@
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *image;
-@property (nonatomic, copy) NSString *selectImage;
+@property (nonatomic, copy) NSString *selectedImage;
 @property (nonatomic, copy) NSString *color;
 @property (nonatomic, copy) NSString *selectedColor;
 @property (nonatomic, copy) NSString *viewController;

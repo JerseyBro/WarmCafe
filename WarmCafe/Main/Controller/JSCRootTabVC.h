@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JSCRootTabVC : UIViewController
-
+@interface JSCRootTabVC : UITabBarController
+{
+    NSString* _systemVersion;
+}
+@property (nonatomic, copy, readonly) NSString *systemVersion;
+@property (copy, readonly) NSString *detailsLabelText;
+@property (nonatomic,assign) float opacity;
 @end

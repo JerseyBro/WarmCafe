@@ -1,13 +1,13 @@
 //
-//  JSCGitCardVC.h
+//  JSCGiftCardVC.h
 //  WarmCafe
 //
-//  Created by jersey on 27/3/18.
+//  Created by jersey on 28/3/18.
 //  Copyright © 2018年 JerseyCoffee. All rights reserved.
 //
 
 #import "JSCBaseViewController.h"
 
-@interface JSCGitCardVC : JSCBaseViewController
+@interface JSCGiftCardVC : JSCBaseViewController
 
 @end
